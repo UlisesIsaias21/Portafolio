@@ -3,10 +3,10 @@ import React from 'react';
 const projects = [
   {
     id: 1,
-    title: 'CI/CD Pipeline Automation',
-    desc: 'Pipeline completo con GitHub Actions, Docker y deploy automático a AWS ECS con rollback inteligente.',
-    tags: ['GitHub Actions', 'Docker', 'AWS ECS', 'Terraform'],
-    link: '#',
+    title: 'Para tus Habitos',
+    desc: 'pagina para registrar tus habitos y llevar un control diario/semanal/mensual',
+    tags: ['React', 'Netlify', 'localstorage', ],
+    link: 'https://for-habitos.netlify.app/',
     preview: '🚀 pipeline.yml',
   },
   {
