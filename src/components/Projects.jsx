@@ -1,13 +1,13 @@
 import React from 'react';
 
 const projects = [
-  {
+   {
     id: 1,
-    title: 'Para tus Habitos',
-    desc: 'pagina para registrar tus habitos y llevar un control diario/semanal/mensual',
-    tags: ['React', 'Netlify', 'localstorage', ],
-    link: 'https://for-habitos.netlify.app/',
-    preview: '🚀 pipeline.yml',
+    title: 'Habitos Atomic · Rastreador de hábitos',
+    desc: 'Rastreador de hábitos diarios inspirado en Hábitos Atómicos: rachas, mapa de constancia y estadísticas de la semana y del mes. Modo claro/oscuro y responsivo.',
+    tags: ['React', 'Vite', 'localStorage', 'Netlify'],
+    link: 'https://for-habitos-atomic.netlify.app/',
+    preview: '⚛ atomic-ux',
   },
   {
     id: 2,
