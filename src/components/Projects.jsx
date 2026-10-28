@@ -1,39 +1,23 @@
 import React from 'react';
 
 const projects = [
-   {
+  {
     id: 1,
-    title: 'Habitos Atomic · Rastreador de hábitos',
-    desc: 'Rastreador de hábitos diarios inspirado en Hábitos Atómicos: rachas, mapa de constancia y estadísticas de la semana y del mes. Modo claro/oscuro y responsivo.',
-    tags: ['React', 'Vite', 'localStorage', 'Netlify'],
+    title: 'Para tus Hábitos',
+    desc: 'Página para registrar tus hábitos y llevar un control diario, semanal y mensual, con rachas y gráficas.',
+    tags: ['React', 'Vite', 'Netlify', 'localStorage'],
     link: 'https://for-habitos-atomic.netlify.app/',
-    preview: '⚛ atomic-ux',
+    preview: '🔥 habitos.jsx',
   },
   {
     id: 2,
-    title: 'Kubernetes Cluster en GCP',
-    desc: 'Cluster multi-nodo en Google Kubernetes Engine con autoscaling, Helm charts y monitoreo con Grafana.',
-    tags: ['Kubernetes', 'GCP', 'Helm', 'Grafana'],
-    link: '#',
-    preview: '☸ k8s.config',
-  },
-  {
-    id: 3,
-    title: 'Infraestructura como Código',
-    desc: 'Módulos Terraform para desplegar ambientes completos (dev/staging/prod) en minutos con un solo comando.',
-    tags: ['Terraform', 'Ansible', 'AWS', 'IaC'],
-    link: '#',
-    preview: '⚡ main.tf',
-  },
-  {
-    id: 4,
-    title: 'Pagina lista de pendientes',
-    desc: 'pagina funcional para listar tus pendietes y llevar un registro',
-    tags: ['React', 'Java Script', 'PWD', 'Deployada'],
-    link: 'https://list-pendientes.netlify.app/',
-    preview: '⚡uu',
+    title: 'Lista de Pendientes',
+    desc: 'App funcional para listar tus pendientes con prioridades, categorías y fecha límite. Instalable como PWA.',
+    tags: ['React', 'JavaScript', 'PWA', 'Netlify'],
+    link: 'https://pendientes-list.netlify.app/',
+    preview: '✅ pendientes.jsx',
     media: '../previews/pendientes.mp4',
-},
+  },
 ];
 
 function ProjectPreview({ label }) {
