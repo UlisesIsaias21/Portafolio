@@ -18,6 +18,14 @@ const projects = [
     preview: '✅ pendientes.jsx',
     media: '../previews/pendientes.mp4',
   },
+  {
+    id: 3,
+    title: 'Ventas & Cuentas',
+    desc: 'Punto de venta para mi negocio en la cancha: cuentas de clientes, inventario, pagos parciales y gráfica mensual. Instalable como PWA.',
+    tags: ['React', 'PWA', 'Netlify', 'Inventario'],
+    link: 'https://campos-ventas-cuentas.netlify.app/',
+    preview: '⚽ ventas.jsx',
+  },
 ];
 
 function ProjectPreview({ label }) {
