@@ -26,7 +26,16 @@ const projects = [
     link: 'https://campos-ventas-cuentas.netlify.app/',
     preview: 'ventas.jsx',
   },
+  {
+    id: 4,
+    title: 'Gastos',
+    desc: 'Pagina para adminstrar tus compras y tus gastos, tambien poder anotar futuras compras. Instalable como PWA.',
+    tags: ['React', 'PWA', 'Netlify', 'Inventario'],
+    link: 'https://https://adm-gastos.netlify.app/',
+    preview: 'gastos.jsx',
+  },
 ];
+
 
 function ProjectPreview({ label }) {
   return (
