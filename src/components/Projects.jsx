@@ -15,7 +15,7 @@ const projects = [
     desc: 'App funcional para listar tus pendientes con prioridades, categorías y fecha límite. Instalable como PWA.',
     tags: ['React', 'JavaScript', 'PWA', 'Netlify'],
     link: 'https://pendientes-list.netlify.app/',
-    preview: '✅ pendientes.jsx',
+    preview: 'pendientes.jsx',
     media: '../previews/pendientes.mp4',
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     desc: 'Punto de venta para mi negocio en la cancha: cuentas de clientes, inventario, pagos parciales y gráfica mensual. Instalable como PWA.',
     tags: ['React', 'PWA', 'Netlify', 'Inventario'],
     link: 'https://campos-ventas-cuentas.netlify.app/',
-    preview: '⚽ ventas.jsx',
+    preview: 'ventas.jsx',
   },
 ];
 
